@@ -1,0 +1,9 @@
+.DS_Store
+vendor
+.Rhistory
+.bundle/
+tmp
+export_csv/*
+/tmp
+db_dumps
+/bck/
