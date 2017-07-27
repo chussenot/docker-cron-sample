@@ -17,7 +17,7 @@ Using Tini has several benefits:
 - It ensures that the default signal handlers work for the software you run in your Docker image. For example, with Tini, SIGTERM properly terminates your process even if you didn't explicitly install a signal handler for it.
 - It does so completely transparently! Docker images that work without Tini will work with Tini without any changes.
 
-### Why crond
+### Why crond?
 
 `crond` is daemon to execute scheduled commands
 
